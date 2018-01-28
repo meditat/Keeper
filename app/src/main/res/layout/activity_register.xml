@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/layout_margin"
+    android:gravity="center"
+    android:background="#00BF9A"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/register_username_edt"
+        android:hint="@string/email_or_username"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:id="@+id/phone_no_edt"
+        android:hint="Phone No."/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/register_pass_edt"
+        android:hint="@string/password"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:id="@+id/confirm_password_edt"
+        android:hint="@string/confirm_password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_btn"
+        android:background="#008975"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:text="Register"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/already_account"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:onClick="alreadyAccounted"
+        android:text="Already have an account?"/>
+
+
+</LinearLayout>

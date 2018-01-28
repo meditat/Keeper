@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#00BF9A"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_margin">
+
+
+    <EditText
+        android:id="@+id/login_username_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_or_username"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/login_password_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/login_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:background="#008975"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#008975"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:text="@string/cancel" />
+
+    <TextView
+        android:id="@+id/already_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:onClick="unAccounted"
+        android:text="Don't have an account?" />
+</LinearLayout>

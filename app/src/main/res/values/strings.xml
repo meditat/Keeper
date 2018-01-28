@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FirstAppActuallyNot</string>
+    <string name="keeper"><b>Keeper</b></string>
+    <string name="tag_line">Keep all your password and username safe at one place</string>
+    <string name="login">Login</string>
+    <string name="show_users">Show Users</string>
+    <string name="email_or_username">Email or Username</string>
+    <string name="bold_password"><b>Password</b></string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="cancel">cancel</string>
+    <string name="username"><b>Username</b></string>
+    <string name="type"><b>Type</b></string>
+</resources>
